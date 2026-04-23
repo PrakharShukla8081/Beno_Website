@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.benosupport.com
+
+# Sitemaps
+Sitemap: https://www.benosupport.com/sitemap.xml
