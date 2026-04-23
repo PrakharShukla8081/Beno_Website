@@ -10,6 +10,10 @@ const getBlogById = (id: string | undefined): BlogProps | undefined => {
   return blogs.find((blog) => blog.id === id);
 };
 
+
+
+
+
 export async function generateMetadata({
   params,
 }: {
