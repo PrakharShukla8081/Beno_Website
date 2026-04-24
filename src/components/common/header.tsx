@@ -168,7 +168,7 @@ const Header: React.FC = () => {
   useEffect(() => {
     window.gtranslateSettings = {
       default_language: "en",
-      languages: ["en", "hi", "ar", "fr", "es"],
+      languages: ["en", "hi", "ar", "fr", "es","pt"],
       native_language_names: true,
       detect_browser_language: true,
       wrapper_selector: ".gtranslate_wrapper",
