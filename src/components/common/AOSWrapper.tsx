@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function AOSWrapper() {
   useEffect(() => {
@@ -13,7 +13,7 @@ export default function AOSWrapper() {
     });
 
     AOS.refresh();
-  }, []);
+}, []);
 
   return null;
 }

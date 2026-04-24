@@ -5,7 +5,7 @@ import Image from "next/image";
 import { CiMenuBurger } from "react-icons/ci";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { IoCloseOutline } from "react-icons/io5";
-import React, { useState, useRef, useEffect, useCallback, memo } from "react";
+import React, { useState, useRef,useEffect, useCallback, memo } from "react";
 
 declare global {
   interface Window {
@@ -168,7 +168,7 @@ const Header: React.FC = () => {
   useEffect(() => {
     window.gtranslateSettings = {
       default_language: "en",
-      languages: ["en", "hi", "ar", "fr", "es"],
+      languages: ["en", "hi", "ar", "fr", "es", "pt"],
       native_language_names: true,
       detect_browser_language: true,
       wrapper_selector: ".gtranslate_wrapper",
